@@ -1,0 +1,10 @@
+{
+    "known": {
+        "word": "test",
+        "phonemes": "t eh s t"
+    },
+    "unknown": {
+        "word": "raxacoricofallipatorius",
+        "phonemes": "r ae k s ah k ow r ih k ah f ae l ah p ah t ao r iy ih s"
+    }
+}
