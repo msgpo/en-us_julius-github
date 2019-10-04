@@ -13,11 +13,9 @@ text-to-speech:
 training:
   acoustic-model-type: "julius"
   base-language-model: !env "${profile_dir}/base_language_model.bin"
-
-training:
   large-files:
     - !env "${profile_dir}/base_dictionary.txt"
-    - !env "${profile_dir}/language_model.bin"
+    - !env "${profile_dir}/base_language_model.bin"
     - !env "${profile_dir}/g2p.fst"
     - !env "${profile_dir}/acoustic_model/model.am"
     - !env "${profile_dir}/acoustic_model/model.layerout_weight.npy"
