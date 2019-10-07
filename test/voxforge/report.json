@@ -1,0 +1,318 @@
+{
+  "statistics": {
+    "num_wavs": 20,
+    "num_words": 206,
+    "num_entities": 0,
+    "correct_transcriptions": 6,
+    "correct_intent_names": 0,
+    "correct_words": 120,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.5825242718446602,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "en-0539.wav": {
+      "text": "the former inception document this week for signature",
+      "transcribe_seconds": 4.857938766479492,
+      "wav_seconds": 5.5,
+      "word_error": {
+        "expected": "the FORMAT inception document this week for signature",
+        "actual": "the FORMER inception document this week for signature",
+        "words": 8,
+        "correct": 7,
+        "errors": 1
+      }
+    },
+    "ar-04.wav": {
+      "text": "he was always sure to make a choice designer helen said to him",
+      "transcribe_seconds": 5.225628614425659,
+      "wav_seconds": 5.875,
+      "word_error": {
+        "expected": "he  WOULD always ***  SHIRK MAKING a   choice HIS AUNT     helen said to  him",
+        "actual": "he  WAS   always SURE TO    MAKE   a   choice *** DESIGNER helen said to  him",
+        "words": 13,
+        "correct": 8,
+        "errors": 6
+      }
+    },
+    "en-0541.wav": {
+      "text": "nevertheless indicated she might be inching towards some controls",
+      "transcribe_seconds": 5.061565637588501,
+      "wav_seconds": 5.875,
+      "word_error": {
+        "expected": "nevertheless indicated she might be  inching TOWARD  some controls",
+        "actual": "nevertheless indicated she might be  inching TOWARDS some controls",
+        "words": 9,
+        "correct": 8,
+        "errors": 1
+      }
+    },
+    "ar-07.wav": {
+      "text": "one rainy day the rats are a great noise and laughed",
+      "transcribe_seconds": 4.814041614532471,
+      "wav_seconds": 5.375,
+      "word_error": {
+        "expected": "one rainy day the rats HEARD a   great noise IN  THE LOFT",
+        "actual": "one rainy day the rats ARE   a   great noise *** AND LAUGHED",
+        "words": 12,
+        "correct": 8,
+        "errors": 4
+      }
+    },
+    "ar-06.wav": {
+      "text": "you have no more minor than a blade of grass",
+      "transcribe_seconds": 3.895728826522827,
+      "wav_seconds": 4.5,
+      "word_error": {
+        "expected": "you have no  more MIND  than a   blade of  grass",
+        "actual": "you have no  more MINOR than a   blade of  grass",
+        "words": 10,
+        "correct": 9,
+        "errors": 1
+      }
+    },
+    "en-0535.wav": {
+      "text": "so that he is in with children from a variety of cultural backgrounds",
+      "transcribe_seconds": 5.305595874786377,
+      "wav_seconds": 6,
+      "word_error": {
+        "expected": "so  that he  is  in  with children from a   variety of  cultural backgrounds",
+        "actual": "so  that he  is  in  with children from a   variety of  cultural backgrounds",
+        "words": 13,
+        "correct": 13,
+        "errors": 0
+      }
+    },
+    "en-0532.wav": {
+      "text": "this will be discussed with industry",
+      "transcribe_seconds": 4.115184783935547,
+      "wav_seconds": 4.625,
+      "word_error": {
+        "expected": "this will be  discussed with industry",
+        "actual": "this will be  discussed with industry",
+        "words": 6,
+        "correct": 6,
+        "errors": 0
+      }
+    },
+    "rp-29.wav": {
+      "text": "since red and green light when mixed form yellow",
+      "transcribe_seconds": 4.49907374382019,
+      "wav_seconds": 5.125,
+      "word_error": {
+        "expected": "since red and green light when mixed form yellow",
+        "actual": "since red and green light when mixed form yellow",
+        "words": 9,
+        "correct": 9,
+        "errors": 0
+      }
+    },
+    "en-0536.wav": {
+      "text": "attach please find its fact sheet",
+      "transcribe_seconds": 3.523759126663208,
+      "wav_seconds": 4,
+      "word_error": {
+        "expected": "ATTACHED please find *** THE  SPREADSHEET",
+        "actual": "ATTACH   please find ITS FACT SHEET",
+        "words": 5,
+        "correct": 2,
+        "errors": 4
+      }
+    },
+    "rp-31.wav": {
+      "text": "with little or no green or blue",
+      "transcribe_seconds": 3.418370485305786,
+      "wav_seconds": 4.125,
+      "word_error": {
+        "expected": "with little or  no  green or  blue",
+        "actual": "with little or  no  green or  blue",
+        "words": 7,
+        "correct": 7,
+        "errors": 0
+      }
+    },
+    "rp-30.wav": {
+      "text": "this is very common type of ball one joined mainly red and yellow",
+      "transcribe_seconds": 5.443835496902466,
+      "wav_seconds": 6.375,
+      "word_error": {
+        "expected": "this is  A   very common type of  BOW  one SHOWING mainly red and yellow",
+        "actual": "this is  *** very common type of  BALL one JOINED  mainly red and yellow",
+        "words": 14,
+        "correct": 11,
+        "errors": 3
+      }
+    },
+    "en-0533.wav": {
+      "text": "through a series of informal outreach sessions over the next few months",
+      "transcribe_seconds": 5.900375127792358,
+      "wav_seconds": 6.875,
+      "word_error": {
+        "expected": "through a   series of  informal outreach sessions over the next few months",
+        "actual": "through a   series of  informal outreach sessions over the next few months",
+        "words": 12,
+        "correct": 12,
+        "errors": 0
+      }
+    },
+    "en-0534.wav": {
+      "text": "q the classes are totally mad immersion",
+      "transcribe_seconds": 3.9658167362213135,
+      "wav_seconds": 4.25,
+      "word_error": {
+        "expected": "HERE the classes are ***     TOTAL immersion",
+        "actual": "Q    the classes are TOTALLY MAD   immersion",
+        "words": 6,
+        "correct": 4,
+        "errors": 3
+      }
+    },
+    "en-0540.wav": {
+      "text": "the commissioner who has not come out in favor of price caps",
+      "transcribe_seconds": 5.073343992233276,
+      "wav_seconds": 5.5,
+      "word_error": {
+        "expected": "the commissioner who has not come out in  favor of  price caps",
+        "actual": "the commissioner who has not come out in  favor of  price caps",
+        "words": 12,
+        "correct": 12,
+        "errors": 0
+      }
+    },
+    "ar-05.wav": {
+      "text": "now look here",
+      "transcribe_seconds": 2.5650570392608643,
+      "wav_seconds": 6.625,
+      "word_error": {
+        "expected": "now look here NO  ONE IS  GOING TO  CARE FOR YOU IF  YOU CARRY ON  LIKE THIS",
+        "actual": "now look here *** *** *** ***   *** ***  *** *** *** *** ***   *** ***  ***",
+        "words": 17,
+        "correct": 3,
+        "errors": 14
+      }
+    },
+    "en-0537.wav": {
+      "text": "nor is going to care for you if you carry on like this",
+      "transcribe_seconds": 4.222824335098267,
+      "wav_seconds": 4.625,
+      "word_error": {
+        "expected": "*** *** ***   *** ***  *** *** *** CONTAINING THE   ABOVE REFERENCED INFORMATION",
+        "actual": "NOR IS  GOING TO  CARE FOR YOU IF  YOU        CARRY ON    LIKE       THIS",
+        "words": 5,
+        "correct": 0,
+        "errors": 13
+      }
+    },
+    "ar-02.wav": {
+      "text": "containing the raffle for preference information",
+      "transcribe_seconds": 4.797204256057739,
+      "wav_seconds": 5.375,
+      "word_error": {
+        "expected": "WHENEVER HIS FRIENDS ASKED HIM IF  HE  WOULD LIKE       TO  GO     OUT WITH       THEM",
+        "actual": "***      *** ***     ***   *** *** *** ***   CONTAINING THE RAFFLE FOR PREFERENCE INFORMATION",
+        "words": 14,
+        "correct": 0,
+        "errors": 14
+      }
+    },
+    "ar-03.wav": {
+      "text": "whatever his friends asked him if he would like to go with them",
+      "transcribe_seconds": 5.187408447265625,
+      "wav_seconds": 6.5,
+      "word_error": {
+        "expected": "HE  WOULD    ONLY ANSWER  I     DON'T KNOW he  WOULDN'T SAY  YES OR  NO   EITHER",
+        "actual": "*** WHATEVER HIS  FRIENDS ASKED HIM   IF   he  WOULD    LIKE TO  GO  WITH THEM",
+        "words": 14,
+        "correct": 1,
+        "errors": 13
+      }
+    },
+    "en-0538.wav": {
+      "text": "he would only answer i don't know he wouldn't say yes or no either",
+      "transcribe_seconds": 6.440655469894409,
+      "wav_seconds": 3.5,
+      "word_error": {
+        "expected": "*** ***   ***  ***    *** ***   ***  *** ***      PLEASE COULD WE  PULL TOGETHER",
+        "actual": "HE  WOULD ONLY ANSWER I   DON'T KNOW HE  WOULDN'T SAY    YES   OR  NO   EITHER",
+        "words": 5,
+        "correct": 0,
+        "errors": 14
+      }
+    },
+    "ar-01.wav": {
+      "text": "please god we put together",
+      "transcribe_seconds": 3.388266086578369,
+      "wav_seconds": 6.25,
+      "word_error": {
+        "expected": "ONCE THERE WAS A   YOUNG RAT NAMED ARTHUR WHO NEVER COULD  MAKE UP  HIS MIND",
+        "actual": "***  ***   *** *** ***   *** ***   ***    *** ***   PLEASE GOD  WE  PUT TOGETHER",
+        "words": 15,
+        "correct": 0,
+        "errors": 15
+      }
+    }
+  },
+  "expected": {
+    "en-0539.wav": {
+      "text": "the format inception document this week for signature"
+    },
+    "ar-04.wav": {
+      "text": "he would always shirk making a choice his aunt helen said to him"
+    },
+    "en-0541.wav": {
+      "text": "nevertheless indicated she might be inching toward some controls"
+    },
+    "ar-07.wav": {
+      "text": "one rainy day the rats heard a great noise in the loft"
+    },
+    "ar-06.wav": {
+      "text": "you have no more mind than a blade of grass"
+    },
+    "en-0535.wav": {
+      "text": "so that he is in with children from a variety of cultural backgrounds"
+    },
+    "en-0532.wav": {
+      "text": "this will be discussed with industry"
+    },
+    "rp-29.wav": {
+      "text": "since red and green light when mixed form yellow"
+    },
+    "en-0536.wav": {
+      "text": "attached please find the spreadsheet"
+    },
+    "rp-31.wav": {
+      "text": "with little or no green or blue"
+    },
+    "rp-30.wav": {
+      "text": "this is a very common type of bow one showing mainly red and yellow"
+    },
+    "en-0533.wav": {
+      "text": "through a series of informal outreach sessions over the next few months"
+    },
+    "en-0534.wav": {
+      "text": "here the classes are total immersion"
+    },
+    "en-0540.wav": {
+      "text": "the commissioner who has not come out in favor of price caps"
+    },
+    "ar-05.wav": {
+      "text": "now look here no one is going to care for you if you carry on like this"
+    },
+    "en-0537.wav": {
+      "text": "containing the above referenced information"
+    },
+    "ar-02.wav": {
+      "text": "whenever his friends asked him if he would like to go out with them"
+    },
+    "ar-03.wav": {
+      "text": "he would only answer i don't know he wouldn't say yes or no either"
+    },
+    "en-0538.wav": {
+      "text": "please could we pull together"
+    },
+    "ar-01.wav": {
+      "text": "once there was a young rat named arthur who never could make up his mind"
+    }
+  }
+}
