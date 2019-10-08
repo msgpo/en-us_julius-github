@@ -3,17 +3,17 @@
     "num_wavs": 49,
     "num_words": 232,
     "num_entities": 72,
-    "correct_transcriptions": 42,
+    "correct_transcriptions": 43,
     "correct_intent_names": 43,
-    "correct_words": 225,
+    "correct_words": 226,
     "correct_entities": 72,
-    "transcription_accuracy": 0.9698275862068966,
+    "transcription_accuracy": 0.9741379310344828,
     "intent_accuracy": 0.8775510204081632,
     "entity_accuracy": 1
   },
   "actual": {
     "turn_the_living_room_lamp_on.wav": {
-      "text": "turn living room lamp on",
+      "text": "turn the living room lamp on",
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -23,24 +23,25 @@
           "entity": "name",
           "value": "living room lamp",
           "raw_value": "living room lamp",
-          "start": 5,
-          "raw_start": 5,
-          "end": 21,
-          "raw_end": 21
+          "start": 9,
+          "raw_start": 9,
+          "end": 25,
+          "raw_end": 25
         },
         {
           "entity": "state",
           "value": "on",
           "raw_value": "on",
-          "start": 22,
-          "raw_start": 22,
-          "end": 24,
-          "raw_end": 24
+          "start": 26,
+          "raw_start": 26,
+          "end": 28,
+          "raw_end": 28
         }
       ],
-      "raw_text": "turn living room lamp on",
+      "raw_text": "turn the living room lamp on",
       "tokens": [
         "turn",
+        "the",
         "living",
         "room",
         "lamp",
@@ -48,6 +49,7 @@
       ],
       "raw_tokens": [
         "turn",
+        "the",
         "living",
         "room",
         "lamp",
@@ -58,15 +60,15 @@
         "state": "on"
       },
       "intents": [],
-      "recognize_seconds": 0.0007855892181396484,
-      "transcribe_seconds": 0.8834860324859619,
+      "recognize_seconds": 0.0007364749908447266,
+      "transcribe_seconds": 0.9786040782928467,
       "wav_seconds": 1.94125,
       "word_error": {
-        "expected": "turn THE living room lamp on",
-        "actual": "turn *** living room lamp on",
+        "expected": "turn the living room lamp on",
+        "actual": "turn the living room lamp on",
         "words": 6,
-        "correct": 5,
-        "errors": 1
+        "correct": 6,
+        "errors": 0
       }
     },
     "turn_the_bedroom_light_on.wav": {
@@ -115,8 +117,8 @@
         "state": "on"
       },
       "intents": [],
-      "recognize_seconds": 0.0009660720825195312,
-      "transcribe_seconds": 0.7744884490966797,
+      "recognize_seconds": 0.0010235309600830078,
+      "transcribe_seconds": 0.8643393516540527,
       "wav_seconds": 1.7334583333333333,
       "word_error": {
         "expected": "turn the bedroom light on",
@@ -170,8 +172,8 @@
         "color": "blue"
       },
       "intents": [],
-      "recognize_seconds": 0.0005824565887451172,
-      "transcribe_seconds": 0.7821292877197266,
+      "recognize_seconds": 0.0007069110870361328,
+      "transcribe_seconds": 0.8670334815979004,
       "wav_seconds": 1.5683333333333334,
       "word_error": {
         "expected": "MAKE bedroom light blue",
@@ -227,8 +229,8 @@
         "color": "green"
       },
       "intents": [],
-      "recognize_seconds": 0.0006072521209716797,
-      "transcribe_seconds": 0.9761590957641602,
+      "recognize_seconds": 0.0005810260772705078,
+      "transcribe_seconds": 0.9811136722564697,
       "wav_seconds": 1.765,
       "word_error": {
         "expected": "set the bedroom light green",
@@ -284,8 +286,8 @@
         "state": "off"
       },
       "intents": [],
-      "recognize_seconds": 0.0008831024169921875,
-      "transcribe_seconds": 0.9225471019744873,
+      "recognize_seconds": 0.0008757114410400391,
+      "transcribe_seconds": 1.035815954208374,
       "wav_seconds": 1.927375,
       "word_error": {
         "expected": "turn living room lamp off",
@@ -341,8 +343,8 @@
         "name": "living room lamp"
       },
       "intents": [],
-      "recognize_seconds": 0.0010704994201660156,
-      "transcribe_seconds": 0.7905988693237305,
+      "recognize_seconds": 0.0010666847229003906,
+      "transcribe_seconds": 0.9145758152008057,
       "wav_seconds": 1.7895833333333333,
       "word_error": {
         "expected": "turn on  living room lamp",
@@ -396,8 +398,8 @@
         "color": "red"
       },
       "intents": [],
-      "recognize_seconds": 0.0005578994750976562,
-      "transcribe_seconds": 0.71697998046875,
+      "recognize_seconds": 0.0005769729614257812,
+      "transcribe_seconds": 0.8010032176971436,
       "wav_seconds": 1.5311666666666666,
       "word_error": {
         "expected": "set bedroom light red",
@@ -453,8 +455,8 @@
         "color": "red"
       },
       "intents": [],
-      "recognize_seconds": 0.0006256103515625,
-      "transcribe_seconds": 0.7243516445159912,
+      "recognize_seconds": 0.0006630420684814453,
+      "transcribe_seconds": 0.8553261756896973,
       "wav_seconds": 1.670625,
       "word_error": {
         "expected": "MAKE the bedroom light red",
@@ -512,8 +514,8 @@
         "name": "living room lamp"
       },
       "intents": [],
-      "recognize_seconds": 0.000990152359008789,
-      "transcribe_seconds": 0.8177525997161865,
+      "recognize_seconds": 0.0009565353393554688,
+      "transcribe_seconds": 0.9499480724334717,
       "wav_seconds": 1.8654166666666667,
       "word_error": {
         "expected": "turn off the living room lamp",
@@ -567,8 +569,8 @@
         "state": "off"
       },
       "intents": [],
-      "recognize_seconds": 0.0008544921875,
-      "transcribe_seconds": 0.7648899555206299,
+      "recognize_seconds": 0.0008516311645507812,
+      "transcribe_seconds": 0.8649632930755615,
       "wav_seconds": 1.6213333333333333,
       "word_error": {
         "expected": "turn garage light off",
@@ -624,8 +626,8 @@
         "name": "bedroom light"
       },
       "intents": [],
-      "recognize_seconds": 0.0009987354278564453,
-      "transcribe_seconds": 0.7165687084197998,
+      "recognize_seconds": 0.0010349750518798828,
+      "transcribe_seconds": 0.81003737449646,
       "wav_seconds": 1.6467083333333334,
       "word_error": {
         "expected": "turn on  the bedroom light",
@@ -681,8 +683,8 @@
         "state": "on"
       },
       "intents": [],
-      "recognize_seconds": 0.0009531974792480469,
-      "transcribe_seconds": 0.785780668258667,
+      "recognize_seconds": 0.0009748935699462891,
+      "transcribe_seconds": 0.8785109519958496,
       "wav_seconds": 1.7797083333333332,
       "word_error": {
         "expected": "turn the garage light on",
@@ -738,8 +740,8 @@
         "color": "green"
       },
       "intents": [],
-      "recognize_seconds": 0.0005388259887695312,
-      "transcribe_seconds": 0.874382734298706,
+      "recognize_seconds": 0.0005331039428710938,
+      "transcribe_seconds": 0.9830524921417236,
       "wav_seconds": 1.8626666666666667,
       "word_error": {
         "expected": "set bedroom light to  green",
@@ -797,8 +799,8 @@
         "color": "red"
       },
       "intents": [],
-      "recognize_seconds": 0.0005471706390380859,
-      "transcribe_seconds": 0.8314690589904785,
+      "recognize_seconds": 0.0009281635284423828,
+      "transcribe_seconds": 0.9345602989196777,
       "wav_seconds": 1.8183333333333334,
       "word_error": {
         "expected": "set the bedroom light to  red",
@@ -852,8 +854,8 @@
         "name": "garage light"
       },
       "intents": [],
-      "recognize_seconds": 0.0009233951568603516,
-      "transcribe_seconds": 0.6719062328338623,
+      "recognize_seconds": 0.0009644031524658203,
+      "transcribe_seconds": 0.7659964561462402,
       "wav_seconds": 1.547,
       "word_error": {
         "expected": "turn off garage light",
@@ -883,8 +885,8 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003223419189453125,
-      "transcribe_seconds": 0.6090352535247803,
+      "recognize_seconds": 0.00035572052001953125,
+      "transcribe_seconds": 0.6845362186431885,
       "wav_seconds": 1.298125,
       "word_error": {
         "expected": "whats the temperature",
@@ -938,8 +940,8 @@
         "name": "bedroom light"
       },
       "intents": [],
-      "recognize_seconds": 0.0009596347808837891,
-      "transcribe_seconds": 0.6399435997009277,
+      "recognize_seconds": 0.0010437965393066406,
+      "transcribe_seconds": 0.7136886119842529,
       "wav_seconds": 1.4594166666666666,
       "word_error": {
         "expected": "turn on  bedroom light",
@@ -997,8 +999,8 @@
         "color": "blue"
       },
       "intents": [],
-      "recognize_seconds": 0.0005645751953125,
-      "transcribe_seconds": 0.8750319480895996,
+      "recognize_seconds": 0.0005476474761962891,
+      "transcribe_seconds": 0.9827642440795898,
       "wav_seconds": 1.8801666666666668,
       "word_error": {
         "expected": "set the bedroom light to  blue",
@@ -1054,8 +1056,8 @@
         "state": "on"
       },
       "intents": [],
-      "recognize_seconds": 0.0008754730224609375,
-      "transcribe_seconds": 0.8870847225189209,
+      "recognize_seconds": 0.0008718967437744141,
+      "transcribe_seconds": 0.9866940975189209,
       "wav_seconds": 1.8906666666666667,
       "word_error": {
         "expected": "turn living room lamp on",
@@ -1109,8 +1111,8 @@
         "state": "on"
       },
       "intents": [],
-      "recognize_seconds": 0.0008633136749267578,
-      "transcribe_seconds": 0.7415151596069336,
+      "recognize_seconds": 0.0009381771087646484,
+      "transcribe_seconds": 0.8393845558166504,
       "wav_seconds": 1.6065416666666668,
       "word_error": {
         "expected": "turn garage light on",
@@ -1166,8 +1168,8 @@
         "color": "red"
       },
       "intents": [],
-      "recognize_seconds": 0.0005383491516113281,
-      "transcribe_seconds": 0.8221731185913086,
+      "recognize_seconds": 0.0005207061767578125,
+      "transcribe_seconds": 0.9280886650085449,
       "wav_seconds": 1.79925,
       "word_error": {
         "expected": "set bedroom light to  red",
@@ -1199,8 +1201,8 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003294944763183594,
-      "transcribe_seconds": 0.5238103866577148,
+      "recognize_seconds": 0.0003237724304199219,
+      "transcribe_seconds": 0.5816025733947754,
       "wav_seconds": 1.1037916666666667,
       "word_error": {
         "expected": "how cold is  it",
@@ -1256,8 +1258,8 @@
         "name": "garage light"
       },
       "intents": [],
-      "recognize_seconds": 0.0009601116180419922,
-      "transcribe_seconds": 0.7415344715118408,
+      "recognize_seconds": 0.0009872913360595703,
+      "transcribe_seconds": 0.8484728336334229,
       "wav_seconds": 1.7356666666666667,
       "word_error": {
         "expected": "turn off the garage light",
@@ -1313,8 +1315,8 @@
         "color": "blue"
       },
       "intents": [],
-      "recognize_seconds": 0.0005497932434082031,
-      "transcribe_seconds": 0.8144855499267578,
+      "recognize_seconds": 0.000545501708984375,
+      "transcribe_seconds": 0.9365365505218506,
       "wav_seconds": 1.7904583333333333,
       "word_error": {
         "expected": "set the bedroom light blue",
@@ -1368,8 +1370,8 @@
         "state": "on"
       },
       "intents": [],
-      "recognize_seconds": 0.0009646415710449219,
-      "transcribe_seconds": 0.7131006717681885,
+      "recognize_seconds": 0.0008790493011474609,
+      "transcribe_seconds": 0.8047163486480713,
       "wav_seconds": 1.5656666666666668,
       "word_error": {
         "expected": "turn bedroom light on",
@@ -1423,8 +1425,8 @@
         "state": "off"
       },
       "intents": [],
-      "recognize_seconds": 0.0008480548858642578,
-      "transcribe_seconds": 0.7116243839263916,
+      "recognize_seconds": 0.0008451938629150391,
+      "transcribe_seconds": 0.8055198192596436,
       "wav_seconds": 1.5684583333333333,
       "word_error": {
         "expected": "turn bedroom light off",
@@ -1456,8 +1458,8 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00033020973205566406,
-      "transcribe_seconds": 0.4825279712677002,
+      "recognize_seconds": 0.00033783912658691406,
+      "transcribe_seconds": 0.542715311050415,
       "wav_seconds": 1.02975,
       "word_error": {
         "expected": "how hot is  it",
@@ -1513,8 +1515,8 @@
         "name": "garage light"
       },
       "intents": [],
-      "recognize_seconds": 0.0010039806365966797,
-      "transcribe_seconds": 0.7228097915649414,
+      "recognize_seconds": 0.001043558120727539,
+      "transcribe_seconds": 0.8253028392791748,
       "wav_seconds": 1.692375,
       "word_error": {
         "expected": "turn on  the garage light",
@@ -1568,8 +1570,8 @@
         "color": "green"
       },
       "intents": [],
-      "recognize_seconds": 0.0005476474761962891,
-      "transcribe_seconds": 0.7144973278045654,
+      "recognize_seconds": 0.0005376338958740234,
+      "transcribe_seconds": 0.8081932067871094,
       "wav_seconds": 1.5603333333333333,
       "word_error": {
         "expected": "set bedroom light green",
@@ -1625,8 +1627,8 @@
         "color": "blue"
       },
       "intents": [],
-      "recognize_seconds": 0.0006639957427978516,
-      "transcribe_seconds": 0.7533807754516602,
+      "recognize_seconds": 0.0006728172302246094,
+      "transcribe_seconds": 0.8703155517578125,
       "wav_seconds": 1.7679166666666666,
       "word_error": {
         "expected": "MAKE the bedroom light blue",
@@ -1682,8 +1684,8 @@
         "name": "bedroom light"
       },
       "intents": [],
-      "recognize_seconds": 0.0009877681732177734,
-      "transcribe_seconds": 0.7155146598815918,
+      "recognize_seconds": 0.0009789466857910156,
+      "transcribe_seconds": 0.8155815601348877,
       "wav_seconds": 1.6902916666666667,
       "word_error": {
         "expected": "turn off the bedroom light",
@@ -1737,8 +1739,8 @@
         "name": "garage light"
       },
       "intents": [],
-      "recognize_seconds": 0.0010883808135986328,
-      "transcribe_seconds": 0.6442723274230957,
+      "recognize_seconds": 0.0010576248168945312,
+      "transcribe_seconds": 0.7373712062835693,
       "wav_seconds": 1.5037083333333334,
       "word_error": {
         "expected": "turn on  garage light",
@@ -1796,8 +1798,8 @@
         "color": "green"
       },
       "intents": [],
-      "recognize_seconds": 0.0015811920166015625,
-      "transcribe_seconds": 0.8556027412414551,
+      "recognize_seconds": 0.0006413459777832031,
+      "transcribe_seconds": 0.9637038707733154,
       "wav_seconds": 1.8752083333333334,
       "word_error": {
         "expected": "set the bedroom light to  green",
@@ -1853,8 +1855,8 @@
         "name": "living room lamp"
       },
       "intents": [],
-      "recognize_seconds": 0.0009670257568359375,
-      "transcribe_seconds": 0.7809016704559326,
+      "recognize_seconds": 0.0009918212890625,
+      "transcribe_seconds": 0.8883914947509766,
       "wav_seconds": 1.8044583333333333,
       "word_error": {
         "expected": "turn off living room lamp",
@@ -1910,8 +1912,8 @@
         "color": "blue"
       },
       "intents": [],
-      "recognize_seconds": 0.0005309581756591797,
-      "transcribe_seconds": 0.8604707717895508,
+      "recognize_seconds": 0.0005311965942382812,
+      "transcribe_seconds": 0.9686343669891357,
       "wav_seconds": 1.844125,
       "word_error": {
         "expected": "set bedroom light to  blue",
@@ -1943,8 +1945,8 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003542900085449219,
-      "transcribe_seconds": 0.4818148612976074,
+      "recognize_seconds": 0.00034356117248535156,
+      "transcribe_seconds": 0.5371298789978027,
       "wav_seconds": 1.047875,
       "word_error": {
         "expected": "what time is  it",
@@ -2000,8 +2002,8 @@
         "color": "red"
       },
       "intents": [],
-      "recognize_seconds": 0.0005643367767333984,
-      "transcribe_seconds": 0.7898569107055664,
+      "recognize_seconds": 0.0005548000335693359,
+      "transcribe_seconds": 0.8746020793914795,
       "wav_seconds": 1.7149166666666666,
       "word_error": {
         "expected": "set the bedroom light red",
@@ -2059,8 +2061,8 @@
         "name": "living room lamp"
       },
       "intents": [],
-      "recognize_seconds": 0.0010225772857666016,
-      "transcribe_seconds": 0.8044209480285645,
+      "recognize_seconds": 0.001069784164428711,
+      "transcribe_seconds": 0.902228832244873,
       "wav_seconds": 1.8501666666666667,
       "word_error": {
         "expected": "turn on  the living room lamp",
@@ -2114,8 +2116,8 @@
         "name": "bedroom light"
       },
       "intents": [],
-      "recognize_seconds": 0.0009911060333251953,
-      "transcribe_seconds": 0.6399741172790527,
+      "recognize_seconds": 0.0009663105010986328,
+      "transcribe_seconds": 0.7163436412811279,
       "wav_seconds": 1.470875,
       "word_error": {
         "expected": "turn off bedroom light",
@@ -2147,8 +2149,8 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003247261047363281,
-      "transcribe_seconds": 0.5055432319641113,
+      "recognize_seconds": 0.0003643035888671875,
+      "transcribe_seconds": 0.5569436550140381,
       "wav_seconds": 1.0830833333333334,
       "word_error": {
         "expected": "tell me  the time",
@@ -2204,8 +2206,8 @@
         "state": "off"
       },
       "intents": [],
-      "recognize_seconds": 0.0009565353393554688,
-      "transcribe_seconds": 0.7627429962158203,
+      "recognize_seconds": 0.00101470947265625,
+      "transcribe_seconds": 0.8625075817108154,
       "wav_seconds": 1.7683333333333333,
       "word_error": {
         "expected": "turn the garage light off",
@@ -2259,8 +2261,8 @@
         "color": "red"
       },
       "intents": [],
-      "recognize_seconds": 0.0006086826324462891,
-      "transcribe_seconds": 0.665241003036499,
+      "recognize_seconds": 0.0006206035614013672,
+      "transcribe_seconds": 0.7436470985412598,
       "wav_seconds": 1.5045,
       "word_error": {
         "expected": "MAKE bedroom light red",
@@ -2318,8 +2320,8 @@
         "state": "off"
       },
       "intents": [],
-      "recognize_seconds": 0.0009701251983642578,
-      "transcribe_seconds": 0.8438897132873535,
+      "recognize_seconds": 0.0010006427764892578,
+      "transcribe_seconds": 0.9629125595092773,
       "wav_seconds": 1.9486666666666668,
       "word_error": {
         "expected": "turn the living room lamp off",
@@ -2373,8 +2375,8 @@
         "color": "blue"
       },
       "intents": [],
-      "recognize_seconds": 0.0005440711975097656,
-      "transcribe_seconds": 0.7418005466461182,
+      "recognize_seconds": 0.0006215572357177734,
+      "transcribe_seconds": 0.8555912971496582,
       "wav_seconds": 1.58225,
       "word_error": {
         "expected": "set bedroom light blue",
@@ -2430,8 +2432,8 @@
         "state": "off"
       },
       "intents": [],
-      "recognize_seconds": 0.0009050369262695312,
-      "transcribe_seconds": 0.7371861934661865,
+      "recognize_seconds": 0.0009696483612060547,
+      "transcribe_seconds": 0.8654055595397949,
       "wav_seconds": 1.7300416666666667,
       "word_error": {
         "expected": "turn the bedroom light off",
@@ -2485,8 +2487,8 @@
         "color": "green"
       },
       "intents": [],
-      "recognize_seconds": 0.0006189346313476562,
-      "transcribe_seconds": 0.6717677116394043,
+      "recognize_seconds": 0.0006322860717773438,
+      "transcribe_seconds": 0.7686560153961182,
       "wav_seconds": 1.5480833333333333,
       "word_error": {
         "expected": "MAKE bedroom light green",
@@ -2520,8 +2522,8 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00036835670471191406,
-      "transcribe_seconds": 0.7926125526428223,
+      "recognize_seconds": 0.0003497600555419922,
+      "transcribe_seconds": 0.910844087600708,
       "wav_seconds": 1.803,
       "word_error": {
         "expected": "is  the garage door open",
@@ -2577,8 +2579,8 @@
         "color": "green"
       },
       "intents": [],
-      "recognize_seconds": 0.0006210803985595703,
-      "transcribe_seconds": 0.7559618949890137,
+      "recognize_seconds": 0.0006771087646484375,
+      "transcribe_seconds": 0.8497469425201416,
       "wav_seconds": 1.7502083333333334,
       "word_error": {
         "expected": "MAKE the bedroom light green",
@@ -2612,8 +2614,8 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003521442413330078,
-      "transcribe_seconds": 0.8727140426635742,
+      "recognize_seconds": 0.0003552436828613281,
+      "transcribe_seconds": 1.0102035999298096,
       "wav_seconds": 1.967125,
       "word_error": {
         "expected": "is  the garage door closed",
