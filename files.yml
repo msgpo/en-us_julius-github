@@ -167,8 +167,8 @@ mixed-language-model:
 # Files needed for text to speech
 text-to-speech:
   espeak_phonemes.txt:
-    bytes: 221
-    sha256: a0eb5a6ebb55440fd9847bcdc2375e1b3b2cfebb8efe743fb6b5a7e54566507c
+    bytes: 219
+    sha256: a2e860c48e9bd82b9ae7a9f320c4ad95f76b4eb8aa9ef5131f85128f44545c1e
   marytts/marytts-lang-en-5.2.jar:
     bytes: 6908619
     sha256: f46cc60abbf1b7444ac37a75e72f60f1aa566bf2448c458463f2f50369fcb3d1
